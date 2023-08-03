@@ -1,43 +1,4 @@
 proxies:
-- name: Danu27_LiveHerza28a
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: c4f5c18f-cc5a-403b-9b53-ab43dcb4ef4c
-  udp: true
-  sni: herza2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: herza2.myserver-prem.cloud
-- name: Danu27_LiveHerza28b
-  type: trojan
-  server: 172.67.139.111
-  port: 443
-  password: c4f5c18f-cc5a-403b-9b53-ab43dcb4ef4c
-  udp: true
-  sni: herza2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: herza2.myserver-prem.cloud
-- name: Danu27_LiveHerza28c
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: c4f5c18f-cc5a-403b-9b53-ab43dcb4ef4c
-  udp: true
-  sni: herza2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: herza2.myserver-prem.cloud
 - name: DanuBackup_LiveDOa
   type: trojan
   server: 104.21.8.121
@@ -77,4 +38,43 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
+- name: Danu27_LiveHerza28a
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: c4f5c18f-cc5a-403b-9b53-ab43dcb4ef4c
+  udp: true
+  sni: herza2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: herza2.myserver-prem.cloud
+- name: Danu27_LiveHerza28b
+  type: trojan
+  server: 172.67.139.111
+  port: 443
+  password: c4f5c18f-cc5a-403b-9b53-ab43dcb4ef4c
+  udp: true
+  sni: herza2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: herza2.myserver-prem.cloud
+- name: Danu27_LiveHerza28c
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: c4f5c18f-cc5a-403b-9b53-ab43dcb4ef4c
+  udp: true
+  sni: herza2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: herza2.myserver-prem.cloud
       
