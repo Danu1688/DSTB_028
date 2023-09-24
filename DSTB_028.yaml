@@ -1,4 +1,17 @@
 proxies:
+- name: CeceNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: d43c9f62-bc6e-49c8-bc00-87ada70db3ff
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: Cece_LiveDO_1
   type: trojan
   server: circles.asia
